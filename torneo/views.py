@@ -17,6 +17,8 @@ from random import randint
 from datetime import datetime as tiempo
 from django.core.exceptions import ObjectDoesNotExist
 
+def helloworld(request):
+	return("Hello World")
 
 @login_required
 def equipoCapitan(request):
